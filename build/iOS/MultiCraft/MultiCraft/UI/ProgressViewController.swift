@@ -22,7 +22,7 @@ final class ProgressViewController: BasePresentViewController {
 
 	override func viewDidLayoutSubviews() {
 		let height = view.frame.size.width * 0.55 / 8
-		viewProgress.constraints.first(where: {$0.firstAttribute == .height})?.constant = height
+		viewProgress.constraints.first(where: { $0.firstAttribute == .height })?.constant = height
 		viewProgress.layer.cornerRadius = height / 2
 		viewProgress.layer.borderWidth = 3
 		viewProgress.layer.borderColor = UIColor.black.cgColor
