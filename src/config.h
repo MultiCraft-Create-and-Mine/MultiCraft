@@ -12,7 +12,7 @@
 
 #if defined USE_CMAKE_CONFIG_H
 	#include "cmake_config.h"
-#elif defined(__ANDROID__) || defined(__IOS__)
+#elif defined(__ANDROID__) || defined(__APPLE__)
 	#define PROJECT_NAME "MyCraft"
 	#define PROJECT_NAME_C "MyCraft"
 	#define STATIC_SHAREDIR ""
