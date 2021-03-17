@@ -98,10 +98,10 @@ return {
 	cbf_formspec = function()
 	local version = core.get_version()
 		return "label[0.1,-0.1;" ..
-			"MultiCraft Open Source Project, ver. " .. version.string .. "\n" ..
-			"Copyright (C) 2014-2020 MultiCraft Development Team\n" ..
+			"MyCraft Open Source, ver. " .. version.string .. "\n" ..
+			"Copyright (C) 2020-2021 MyCraft Team\n" ..
 			"Licence: LGPLv3.0+ and CC-BY-SA 4.0\n" ..
-			"Home page: http://multicraft.world]" ..
+			"Home page: http://mycraft.cloud]" ..
 			"tablecolumns[color;text]" ..
 			"tableoptions[background=#999999;highlight=#00000000;border=true]" ..
 			"table[0,1.6;11.8,3.8;list_credits;" ..

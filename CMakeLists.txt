@@ -7,14 +7,14 @@ endif()
 
 # This can be read from ${PROJECT_NAME} after project() is called
 project(MultiCraft)
-set(PROJECT_NAME_CAPITALIZED "MultiCraft")
+set(PROJECT_NAME_CAPITALIZED "MyCraft")
 
 # Works only for cmake 3.1 and greater
 set(CMAKE_CXX_STANDARD 11)
 
 # Also remember to set PROTOCOL_VERSION in network/networkprotocol.h when releasing
 set(VERSION_MAJOR 1)
-set(VERSION_MINOR 12)
+set(VERSION_MINOR 0)
 set(VERSION_PATCH 0)
 set(VERSION_EXTRA "" CACHE STRING "Stuff to append to version string")
 

@@ -3,7 +3,7 @@ APP_ABI := ${TARGET_ABI}
 APP_STL := c++_static
 NDK_TOOLCHAIN_VERSION := clang
 APP_SHORT_COMMANDS := true
-APP_MODULES := MultiCraft
+APP_MODULES := MyCraft
 
 APP_CPPFLAGS := -Ofast -fvisibility=hidden
 

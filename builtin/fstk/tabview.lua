@@ -57,7 +57,7 @@ local function add_tab(self,tab)
 end
 
 local function get_bg(tsize, tabname)
-	local bg = "bgcolor[#8FB9DE]" ..
+	local bg = "bgcolor[#b8b8ba]" ..
 		"background[0,0;" .. tsize.width .. "," .. tsize.height .. ";" ..
 		core.formspec_escape(defaulttexturedir ..
 			"bg_common.png")  .. ";true]"

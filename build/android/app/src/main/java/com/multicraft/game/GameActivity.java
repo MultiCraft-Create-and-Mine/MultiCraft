@@ -53,7 +53,7 @@ import static com.multicraft.game.helpers.Utilities.makeFullScreen;
 public class GameActivity extends NativeActivity {
 	static {
 		try {
-			System.loadLibrary("MultiCraft");
+			System.loadLibrary("MyCraft");
 		} catch (UnsatisfiedLinkError | OutOfMemoryError e) {
 			Bugsnag.notify(e);
 			System.exit(0);

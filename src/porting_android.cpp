@@ -134,7 +134,7 @@ void initAndroid()
 	// in the start-up code
 	__android_log_print(ANDROID_LOG_ERROR, PROJECT_NAME_C,
 			"Initializing GPROF profiler");
-	monstartup("libMultiCraft.so");
+	monstartup("libMyCraft.so");
 #endif
 }
 
@@ -200,7 +200,7 @@ void initializePathsAndroid()
 	std::string path_data = getAndroidPath(nativeActivity, app_global->activity->clazz, mt_getAbsPath,
 				"getFilesDir");
 
-	path_user    = path_storage + DIR_DELIM + "Android/data/com.multicraft.game/files";
+	path_user    = path_storage + DIR_DELIM + "Android/data/com.mycraft.game/files";
 	path_share   = path_data;
 	path_locale  = path_data + DIR_DELIM + "locale";
 	path_cache   = getAndroidPath(nativeActivity,

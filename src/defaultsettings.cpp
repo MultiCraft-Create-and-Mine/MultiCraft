@@ -35,7 +35,7 @@ void set_default_settings(Settings *settings) {
 	settings->setDefault("password", "");
 	settings->setDefault("password_save", "false");
 	settings->setDefault("bind_address", "");
-	settings->setDefault("serverlist_url", "servers.multicraft.world");
+	settings->setDefault("serverlist_url", "servers.mycraft.cloud");
 	settings->setDefault("serverlist_url_2", "");
 
 	// Client
@@ -550,9 +550,14 @@ void set_default_settings(Settings *settings) {
 	}
 
 	// Settings for the Rounded Screen and Home Bar
-	if SDVersionHomeBar {
-		settings->setDefault("hud_move_upwards", "20");
-		settings->setDefault("round_screen", "35");
+	if (@available(iOS 11.0, *)) {
+		UIWindow *window = UIApplication.sharedApplication.keyWindow;
+		CGFloat bottomPadding = window.safeAreaInsets.bottom;
+
+		if (bottomPadding > 0) {
+			settings->setDefault("hud_move_upwards", "20");
+			settings->setDefault("round_screen", "35");
+		}
 	}
 #endif // iOS
 

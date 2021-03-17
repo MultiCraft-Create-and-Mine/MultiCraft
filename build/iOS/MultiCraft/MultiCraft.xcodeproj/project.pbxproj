@@ -1808,8 +1808,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 100;
-				DEVELOPMENT_TEAM = R3RLJ9TW52;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 9YTGFUZKY3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					__IOS__,
@@ -1839,7 +1839,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.12.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -1861,7 +1861,7 @@
 					"-Wl,-dead_strip",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.MultiCraft;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycraft.game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MultiCraft/Bridge-Header.h";
 			};
@@ -1873,8 +1873,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 100;
-				DEVELOPMENT_TEAM = R3RLJ9TW52;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 9YTGFUZKY3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"NDEBUG=1",
@@ -1905,7 +1905,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.12.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -1926,7 +1926,7 @@
 					"-L${SRCROOT}/../deps/libcurl/lib",
 					"-Wl,-dead_strip",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.MultiCraft;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycraft.game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MultiCraft/Bridge-Header.h";
 			};
@@ -1961,7 +1961,7 @@
 			repositoryURL = "https://github.com/bugsnag/bugsnag-cocoa";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 6.1.0;
+				minimumVersion = 6.6.0;
 			};
 		};
 		84C32A3524AF7A4500445E92 /* XCRemoteSwiftPackageReference "Nantes" */ = {
