@@ -16,6 +16,7 @@
 
 typedef NS_ENUM(NSInteger, DeviceVersion){
 	Simulator             = 1,
+
 	// iPhone
 	iPhone4S              = 101,
 	iPhone5               = 102,
