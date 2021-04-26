@@ -1,4 +1,4 @@
-Multicraft- Create and Mine Open Source
+Multicraft Open Source
 ===================
 
 Multicraft create and Mine is an Open Source sanbox game, based on MultiCraft Engine and Minetest projects
